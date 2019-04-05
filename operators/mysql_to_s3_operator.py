@@ -5,7 +5,7 @@ from mysql_plugin.hooks.astro_mysql_hook import AstroMySqlHook
 from airflow.utils.decorators import apply_defaults
 import json
 import logging
-test
+
 
 class MySQLToS3Operator(BaseOperator):
     """
