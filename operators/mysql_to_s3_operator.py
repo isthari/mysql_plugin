@@ -146,5 +146,4 @@ class MySQLToS3Operator(BaseOperator):
             key=key,
             replace=True
         )
-        s3.connection.close()
         logging.info('File uploaded to s3')
